@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        .about{
+            text-align: center;
+
+        }
+        h3{
+            background-color: coral;
+        }
+
+
+        @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--mainGrey);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+}
+
+/* ------------Navbar -------------------- */
+.navbar {
+  top: 10px;
+  display: flex;
+  /* position: sticky; */
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+
+
+
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0 -10vw;
+  text-decoration: none;
+}
+
+.navlinks>li {
+  padding: 0 20px;
+
+}
+
+.navlinks>li>a {
+
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ececec;
+}
+
+#title {
+  position: relative;
+  left: 2%;
+  font-size: 30px;
+}
+
+#cart {
+  position: relative;
+  right: -8%;
+}
+
+
+
+.main {
+
+  background-image: linear-gradient(261deg, rgba(8, 8, 8, 0.727) 2%, rgba(3, 3, 3, 0.551) 76%), url(./images/hero-bcg.jpeg);
+  /* background:center/cover no-repeat; */
+
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* z-index: -1; */
+}
+
+
+
+#cart>img {
+  height: 26px;
+  width: 26px;
+  filter: invert(100%);
+  right: 10px;
+  position: inherit;
+}
+
+
+#cart-item {
+  background-color: #f09d51;
+  padding: 5px;
+  border-radius: 25px;
+  position: absolute;
+  top: -10px;
+  line-height: 12px;
+  left: 15px;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="main" id="main">
+
+        <div class="navbar">
+          <nav class="navl">
+            <ul class="navlinks">
+              <li><a href="#main">Home</a></li>
+              <li><a href="#Pro">Product</a></li>
+              <li><a href="./About.html">About</a></li>
+            </ul>
+          </nav>
+    
+          <div id="title">
+            <img src="./images/logo.svg"></img>
+          </div>
+    
+          <div id="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-item">
+              <p>0</p>
+            </span>
+          </div>
+        </div>
+    <div class="about" >
+        <div>
+          <h3> / Our History</h3>
+          <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum pariatur aliquid nisi suscipit, eius quasi culpa sint eos iusto adipisci exercitationem dolore modi, nihil tenetur incidunt molestiae rem vel rerum obcaecati quibusdam consequuntur ut distinctio? Vero odio unde aspernatur placeat eius nulla in numquam dolorum provident, repellat fugiat. Cumque reiciendis molestias tempore laudantium eum molestiae provident mollitia labore saepe? Praesentium odit reprehenderit a minima pariatur totam, dolor itaque, aspernatur beatae quam autem quae explicabo sunt vel, voluptates accusantium consectetur aut ducimus dolore illo doloribus? Amet eius totam quo quibusdam debitis reiciendis quos explicabo qui, autem, ut magni ratione doloremque, facere officiis vitae impedit officia similique unde nemo possimus quaerat fugiat ullam perspiciatis tempore! Dicta qui aperiam repellat deleniti beatae, magni perspiciatis dolorum possimus voluptatum dignissimos fuga illo commodi eum nobis, quis obcaecati aspernatur quo incidunt laudantium suscipit provident enim, veritatis saepe delectus. Dolorem maxime quam distinctio ratione beatae ipsa aliquam porro quod ducimus eligendi culpa nobis, facilis dicta minima laudantium velit praesentium delectus eveniet amet ut. Dolorem minima sequi eius dolores repudiandae qui temporibus, neque quaerat dolore deserunt laborum eligendi optio. Voluptas laudantium ab corrupti explicabo quo magni exercitationem cupiditate ducimus autem deserunt, aliquam, sed tempora ipsa rem culpa unde quibusdam voluptatum? Pariatur ducimus dolores fuga optio eaque iusto corporis fugit quaerat placeat exercitationem possimus, quasi dolor saepe ipsam! Culpa sequi facere officiis inventore itaque quam optio accusantium, praesentium sunt dicta vitae aspernatur fugiat ut exercitationem esse soluta quas laudantium modi sit quibusdam ex. Dolore fugiat consequuntur odit ea dicta, nesciunt est nisi laborum quia repellendus ab molestias illum explicabo quaerat vero, cum provident illo temporibus, sed libero nemo architecto! Temporibus facilis vitae incidunt iure voluptatem explicabo non voluptate necessitatibus aspernatur eos eius quis fugiat reprehenderit veritatis minus nostrum aperiam ullam velit nisi, repellat nulla quidem? Dolores, quos molestias.
+        </p></div>
+      </div>
+  
+      <script src="https://kit.fontawesome.com/76bab4803c.js" crossorigin="anonymous"></script>
+</body>
+</html>
